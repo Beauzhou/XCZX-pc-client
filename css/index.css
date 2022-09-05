@@ -1,0 +1,494 @@
+*{
+    padding:0 ;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#f3f5f7;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.clearfix::before,
+.clearfix::after{
+    content: '';
+    display: table;
+}
+.clearfix::after{
+    clear: both;
+}
+.banxin{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 42px;
+}
+.header h2{
+    width: 195px;
+	height: 42px;
+    float: left;
+}
+.nav {
+    float: left;
+    height: 42px; ;
+    margin-left:70px;
+}
+.nav li{
+    float: left;
+    margin-right: 26px;
+}
+.nav li a{
+    padding: 0 9px;
+    display: block;
+	font-size: 18px;
+    line-height: 42px;
+	color: #050505;
+}
+.nav li:hover{
+    border-bottom: 2px solid #00a4ff;
+}
+.search{
+    margin-left:59px;
+    float: left;
+    width: 412px;
+	height: 40px;
+	border: 1px solid #00a4ff;
+}
+.search input{
+    float: left;
+    padding-left: 20px;
+    height: 38px;
+    width: 360px;
+    border: 0;
+}
+.search input ::placeholder{
+	font-size: 14px;
+	color: #bfbfbf;
+}
+.search button{
+    float: left;
+    background-image: url(../image/btn.png);
+    width: 50px;
+    height: 40px;
+    border: 0;
+}
+.user{
+    float: right;
+    margin-right: 35px;
+    height: 42px;
+    line-height: 42px;
+}
+.user img{
+    vertical-align: middle;
+}
+.banner{
+    height: 420px;
+	background-color: #1c036c;
+}
+.banner .banxin{
+    background-image: url(../image/banner2.png);
+    width: 1200px ;
+    height: 420px;
+}
+.banner .banxin .left{
+    float: left;
+    width: 190px;
+	height: 420px;
+	background-color: #13014b;
+    padding: 10px 20px;
+}
+
+.banner .banxin .left li{
+    line-height: 44px;
+}
+.banner .banxin .left a{
+    color: #d3d1d9;
+}
+.banner .banxin .left span{
+    float: right;
+}
+.banner .banxin .left a:hover{
+    color: #00b4ff;
+}
+.banner .banxin .right{
+    float: right;
+    width: 228px;
+	height: 300px;
+	background-color: #ffffff;
+    margin-top: 50px;
+}
+.banner .banxin .right h2{
+    width: 228px;
+	height: 48px;
+    background-color: #9bceea;
+    font-size: 18px;
+    line-height: 48px;
+    text-align: center;
+    color: #ffffff;
+}
+.banner .banxin .right dl{
+    width: 163px;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e5e5e5;
+}
+.banner .banxin .right dt{
+    font-size: 16px;
+    line-height: 20px;
+    color: #4e4e4e;
+}
+.banner .banxin .right dd{
+    font-size: 12px;
+    line-height: 20px;
+    color: #a5a5a5;
+}
+
+.banner .banxin .right a{
+    margin:8px auto;
+    display: block;
+    width: 200px;
+	height: 41px;
+	border: solid 1px #00a4ff;
+    line-height: 41px;
+    text-align: center;
+	font-family: MicrosoftYaHei;
+	font-size: 16px;
+	font-weight: bold;
+	color: #00a4ff;
+}
+.goods{
+    margin-top: 8px;
+    padding: 0 30px;
+	height: 60px;
+    line-height: 60px;
+	background-color: #ffffff;
+	box-shadow: 0px 2px 3px 0px 
+		rgba(118, 118, 118, 0.2);
+}
+.goods h2{
+    float: left;
+    font-family: MicrosoftYaHei;
+	font-size: 16px;
+	font-weight: normal;
+	letter-spacing: 0px;
+	color: #00a4ff;
+}
+.goods ul{
+    float: left;
+    margin-left:30px;
+}
+.goods li{
+    float: left;
+}
+
+.goods ul a{
+    border-left: 1px solid #bfbfbf;
+    padding: 0 35px;
+    font-family: MicrosoftYaHei;
+	font-size: 16px;
+	font-weight: normal;
+	letter-spacing: 0px;
+	color: #050505;
+}
+.goods .right{
+    float: right;
+    font-family: MicrosoftYaHei;
+	font-size: 14px;
+	font-weight: normal;
+	letter-spacing: 0px;
+	color: #00a4ff;
+}
+.continer{
+    height: 595px;
+
+}
+.continer .title{
+    height: 19px;
+    line-height: 19px;
+    margin-top: 37px;
+}
+.continer .title h2{
+    float: left;
+    font-family: MicrosoftYaHei;
+	font-size: 20px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #494949;
+}
+
+.continer .title a{
+    margin-right: 35px;
+    float: right;
+    font-family: MicrosoftYaHei;
+	font-size: 12px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #a5a5a5;
+}
+.box{
+    margin-top: 21px;
+}
+.box li{
+    margin-right: 15px;
+    margin-bottom: 15px;
+    float: left;
+    width: 228px;
+	height: 270px;
+	background-color: #ffffff;
+	box-shadow: 0px 2px 5px 0px 
+		rgba(118, 118, 118, 0.5);
+}
+.box li:nth-child(5n){
+    margin-right: 0;
+}
+.box li a{
+    width: 228px;
+    height: 155px;
+}
+.box li h3{
+    margin: 25px 25px 20px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #050505;
+}
+.box li span {
+    margin-left: 25px;
+	font-size: 12px;
+	color: #ff7c2d;
+}
+.box li p{
+
+	font-size: 12px;
+	color: #999999;
+}
+.biancheng{
+    height: 433px;
+}
+.biancheng .title{
+    height: 19px;
+    line-height: 19px;
+    margin-top: 37px;
+    margin-bottom: 35px;
+}
+.biancheng .title h2{
+    float: left;
+    font-family: MicrosoftYaHei;
+	font-size: 20px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #494949;
+}
+
+.biancheng .title a{
+    margin-right: 35px;
+    float: right;
+    font-family: MicrosoftYaHei;
+	font-size: 12px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #a5a5a5;
+}
+.biancheng .title ul{
+    float: left;
+    margin-left: 280px;
+}
+.biancheng .title li{
+    float: left;
+    margin-left: 70px;
+}
+.biancheng .title li a:hover{
+    color: #00a4ff;
+}
+.biancheng .box2{
+    height: 392px;
+}
+.biancheng .box2 .left{
+    width: 228px;
+    float: left;
+}
+.biancheng .box2 .right{
+    float: left;
+    width: 957px;
+    margin-left: 15px;
+}
+.biancheng .box2 .right ul{
+    margin-top:15px;
+}
+.biancheng .box2 .right li{
+    margin-right: 15px;
+    float: left;
+    width: 228px;
+	height: 270px;
+	background-color: #ffffff;
+	box-shadow: 0px 2px 5px 0px 
+		rgba(118, 118, 118, 0.5);
+}
+.biancheng .box2 .right li:nth-child(4n){
+    margin-right: 0;
+}
+.biancheng .box2 .right li a{
+    width: 228px;
+    height: 155px;
+}
+.biancheng .box2 .right li h3{
+    margin: 25px 25px 20px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #050505;
+}
+.biancheng .box2 .right li span {
+    margin-left: 25px;
+	font-size: 12px;
+	color: #ff7c2d;
+}
+.biancheng .box2 .right li p{
+
+	font-size: 12px;
+	color: #999999;
+}
+.gongcheng{
+    height: 309px;
+}
+.gongcheng .title{
+    height: 19px;
+    line-height: 19px;
+    margin-top: 37px;
+    margin-bottom: 35px;
+}
+.gongcheng .title h2{
+    float: left;
+    font-family: MicrosoftYaHei;
+	font-size: 20px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #494949;
+}
+
+.gongcheng .title a{
+    margin-right: 35px;
+    float: right;
+    font-family: MicrosoftYaHei;
+	font-size: 12px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #a5a5a5;
+}
+.gongcheng .title ul{
+    float: left;
+    margin-left: 280px;
+}
+.gongcheng .title li{
+    float: left;
+    margin-left: 70px;
+}
+.gongcheng .title li a:hover{
+    color: #00a4ff;
+}
+
+.gongcheng .box3 ul{
+    float: left;
+}
+.gongcheng .box3 ul li{
+    margin-right: 15px;
+    margin-bottom: 15px;
+    float: left;
+    width: 228px;
+	height: 270px;
+	background-color: #ffffff;
+	box-shadow: 0px 2px 5px 0px 
+		rgba(118, 118, 118, 0.5);
+}
+.gongcheng .box3 ul li:nth-child(5n){
+    margin-right: 0;
+}
+.gongcheng .box3 ul li a{
+    width: 228px;
+    height: 155px;
+}
+.gongcheng .box3 ul li h3{
+    margin: 25px 25px 20px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #050505;
+}
+.gongcheng .box3 ul li span {
+    margin-left: 25px;
+	font-size: 12px;
+	color: #ff7c2d;
+}
+.gongcheng .box3 ul li p{
+	font-size: 12px;
+	color: #999999;
+}
+.footer {
+    margin-top: 40px;
+
+    padding-top: 30px;
+
+    height: 417px;
+    background-color: #fff;
+}
+.footer .banxin .left{
+    float: left;
+}
+.footer .left  p {
+    margin: 20px 0 10px;
+    font-size: 12px;
+    color: #666;
+}
+.footer .left a {
+    display: inline-block;
+    width: 120px;
+    height: 36px;
+    border: 1px solid #00a4ff;
+    text-align: center;
+    line-height: 36px;
+    font-size: 16px;
+    color: #00a4ff;
+}
+.footer .right{
+    float: right;
+    margin-right: 31px;
+}
+.footer .right dl {
+    float: left;
+    margin-left: 120px;
+}
+.footer .right dt {
+    font-family: MicrosoftYaHei;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 21px;
+	letter-spacing: 0px;
+	color: #333333;
+}
+.footer .right dd {
+    font-family: SimSun;
+	font-size: 12px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 21px;
+	letter-spacing: 0px;
+	color: #333333;
+}
+
+
+
+
+
+
+
